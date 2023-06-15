@@ -15,16 +15,24 @@ To set up this project locally, please follow these steps:
 
 ## Contents:
 
-mushroom_detection.py
-The main image processing/template matching code. Takes a template image and finds the best match within an image taken by the camera and returns  its location.
-mushroom.jpg
-  The mushroom template used in the template matching code.
+1. mushroom_detection.py
 
-lane_guidance_node.py
-  Modified lane guidance code. Includes the integrated lane switching and throttle codes that would run when the mushroom is detected.
-lane_detection_node.py
-  Modified lane detection code. Includes the integrated mushroom detection code and the line/lane following code.
-calibration_node.py
-  Camera Calibration Code. Used to color calibrate the Oak-D-Lite Camera.
+The main image processing/template matching code. Takes a template image and finds the best match within an image taken by the camera and returns  its location.
+
+2. mushroom.jpg
+   
+The mushroom template used in the template matching code.
+
+3. lane_guidance_node.py
+
+Modified lane guidance code. Includes the integrated lane switching and throttle codes that would run when the mushroom is detected.
+
+4. lane_detection_node.py
+
+Modified lane detection code. Includes the integrated mushroom detection code and the line/lane following code.
+
+5. calibration_node.py
+
+Camera Calibration Code. Used to color calibrate the Oak-D-Lite Camera.
 
 
