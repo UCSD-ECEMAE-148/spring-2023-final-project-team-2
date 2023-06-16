@@ -1,8 +1,8 @@
-Certainly! Here's a sample README for the GitHub page you provided:
-
 # Spring 2023 Final Project - Team 2
 
 Team 2's MAE 148 Project was to replicate a mechanic in Mariokart. The car would identify a mushroom cutout, drive towards (switching lanes) and then would speed up after passing through it.
+
+The method of image processing used to identify and relay the location of the mushroom to the car. was template matching, where the car would compare a picture from the Oak-D-Lite Camera to a template picture (the mushroom cutout) pixel by pixel.
 
 ## Installation
 
